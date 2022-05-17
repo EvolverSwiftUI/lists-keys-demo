@@ -1,0 +1,34 @@
+
+.user-card-container {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.user-details-container {
+    padding: 10px;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #12022f;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.user-designation {
+    font-family: "Roboto";
+    font-family: 14px;
+    color: #594d6d;
+    margin: 0px;
+}
