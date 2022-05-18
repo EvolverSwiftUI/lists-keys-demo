@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import UserProfile from './components/UserProfile';
+import Welcome from './components/Welcome';
 
 const userDetailsList = [
   {
@@ -37,22 +38,24 @@ const userDetailsList = [
 // }
 
 // by arrow function format
-const App = () => (
-  <div className="list-container">
-    <h1 className="title"> Users List</h1>
-    <ul>
-        {/* <UserProfile userDetails={userDetailsList[0]}/>
-        <UserProfile userDetails={userDetailsList[1]}/>
-        <UserProfile userDetails={userDetailsList[2]}/>
-        <UserProfile userDetails={userDetailsList[3]}/> */}
-        {
-          userDetailsList.map((eachItem) => (
-            <UserProfile userDetails={eachItem} key={eachItem.uniqueNo}/>
-          ))
-        }
-    </ul>
+// const App = () => (
+//   <div className="list-container">
+//     <h1 className="title"> Users List</h1>
+//     <ul>
+//         {/* <UserProfile userDetails={userDetailsList[0]}/>
+//         <UserProfile userDetails={userDetailsList[1]}/>
+//         <UserProfile userDetails={userDetailsList[2]}/>
+//         <UserProfile userDetails={userDetailsList[3]}/> */}
+//         {
+//           userDetailsList.map((eachItem) => (
+//             <UserProfile userDetails={eachItem} key={eachItem.uniqueNo}/>
+//           ))
+//         }
+//     </ul>
     
-  </div>
-)
+//   </div>
+// )
+
+const App = () => <Welcome name="Sivaram Yadav"/>
 
 export default App;

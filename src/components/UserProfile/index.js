@@ -1,6 +1,8 @@
 
 import './index.css'
 
+// Funtional Component Implemenation
+
 const UserProfile = (props) => {
     const { userDetails } = props;
     const {imageUrl, name, role} = userDetails;
