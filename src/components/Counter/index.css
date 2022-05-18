@@ -1,0 +1,21 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 28px;
+}
+
+.count{
+    font-size: 32px;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}

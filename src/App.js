@@ -2,6 +2,8 @@
 import './App.css';
 import UserProfile from './components/UserProfile';
 import Welcome from './components/Welcome';
+import Counter from './components/Counter';
+
 
 const userDetailsList = [
   {
@@ -56,6 +58,8 @@ const userDetailsList = [
 //   </div>
 // )
 
-const App = () => <Welcome name="Sivaram Yadav"/>
+//const App = () => <Welcome name="Sivaram Yadav"/>
+
+const App = () => <Counter />
 
 export default App;
